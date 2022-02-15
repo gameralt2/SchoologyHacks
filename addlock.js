@@ -1,5 +1,7 @@
 // CODE FOR INSERTING AN IFRAME:
-
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
+header('Access-Control-Allow-Headers: Content-Type');
 // This line means define a function, then run it.
 // If you're confused why this is necessary, it's because it keeps the variables out of the global namespace. 
 // If you don't know what that means, GO LEARN JAVASCRIPT you absolute fool of a homo sapien
